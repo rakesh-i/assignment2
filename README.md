@@ -6,7 +6,7 @@
 
 ## Note
 * Don't run insertion sort and bubble sort for large number of elements. Keep it below 20000.
-* Don't run quick sort last element as pivot and first element as pivot on sorted and reverese sorted arrays for large number of elements(worst cases).
+* Don't run quick sort last element as pivot and first element as pivot on sorted and reverese sorted arrays with large number of elements(worst cases).
 * Just go through the analysis.cpp once before running it.
 * Don't use your laptop/pc when analysis.cpp is running.
 * There's sample data if you want to see how the results looks. 
