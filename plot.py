@@ -17,9 +17,9 @@ algo_names = {
     3: "Merge Sort",
     4: "Heap Sort",
     5: "Radix Sort",
-    6: "QuickSort (last pivot)",
-    7: "QuickSort (first pivot)",
-    8: "QuickSort (random pivot)"
+    6: "QuickSort (first pivot)",
+    7: "QuickSort (random pivot)",
+    8: "QuickSort (median pivot)"
 }
 
 # Load data
@@ -81,9 +81,9 @@ ALGO_COLORS = {
     "Merge Sort": "#2ca02c",
     "Heap Sort": "#a200ff",
     "Radix Sort": "#0011ff",
-    "QuickSort (last pivot)": "#b47467",
-    "QuickSort (first pivot)": "#00eeff",
-    "QuickSort (random pivot)": "#3a3939",
+    "QuickSort (first pivot)": "#b47467",
+    "QuickSort (random pivot)": "#00eeff",
+    "QuickSort (median pivot)": "#3a3939",
 }
 
 def color_for_algo(algo_id: int) -> str:
